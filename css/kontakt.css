@@ -1,0 +1,387 @@
+:root {
+    --orange: #f5841f;
+    --black: #000000;
+    --light-blue: #8ECAE6;
+    --dark-blue: #16213C;
+    --white: #FFFFFF;
+    --gray: #D9D9D9;
+}
+
+    body {
+        font-family: 'Abhaya Libre';
+    }
+
+    .heading-orange {
+        color: var(--orange);
+    }
+
+    .logo {
+        display: flex;
+        gap: 10px;
+    }
+
+    img {
+        width: 75%;
+    }
+
+@media only screen and (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+    
+    header {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: stretch;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .logo__hamburger {
+        padding: 10px;
+    }
+
+    .header__contact > a {
+        color: var(--black);
+        text-decoration: none;
+    }
+
+    .header__contact > a:nth-child(3) {
+        padding-top: 5%;
+    }
+
+    .header__contact {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        padding-bottom: 20px;
+    }
+    
+    .header__contact > img {
+        width: 24px;
+        height: 24px;
+    }
+
+    header > a {
+        color: white;
+        background-color: var(--orange);
+        padding: 12px 24px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        gap: 6.5px;
+    }
+
+    .home {
+        width: 16px;
+        height: 17.5px;
+    }
+
+    .ellipse {
+        width: 4px;
+        height: 4px;
+    }
+
+    .logoipsum {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .logo__hamburger {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 33px;
+        padding-bottom: 60px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        padding: 10px;
+    }
+
+    .contact > img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .contact > a {
+        color: var(--black);
+    }
+
+    footer {
+        background-color: var(--dark-blue);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .a-footer {
+        color: var(--light-blue);
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .footer__logo {
+        color: var(--light-blue);
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .footer__section > h3 {
+        color: var(--light-blue);
+    }
+
+    .footer__section-last > h3 {
+        color: var(--light-blue);
+    }
+
+    .logoipsum {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+    }
+
+    .logoipsum > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .adress {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 20px 0 50px 0;
+    }
+
+    .footer__section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 20px 0 50px 0;
+    }
+
+    .footer__section-last {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 20px 0 0 0;
+    }
+
+    .footer__contact {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .footer__contact > img {
+        max-width: 16px;
+        max-height: 16px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /*zkopírovat všude*/
+    html {
+        font-size: 14px;
+    }
+
+    main {
+        padding: 61.5px 20% 0 20%;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--black);
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--gray);
+        padding: 10px 20% 10px 20%;
+    }
+
+    .header__contact {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .header__contact > img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo > p {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .logo__hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .try {
+        color: var(--white);
+        background-color: var(--orange);
+        width: 148px;
+        height: 43px;
+        border-radius: 30px;
+        padding: 12px 24px;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        gap: 6.5px;
+    }
+
+    .home {
+        width: 16px;
+        height: 17.5px;
+    }
+
+    .ellipse {
+        width: 4px;
+        height: 4px;
+    }
+
+    /*konec kopírování*/
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 94px;
+        gap: 32px;
+    }
+
+    .contact > img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .contact > a {
+        text-decoration: underline;
+    }
+
+    /*další kopírování*/
+    footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--dark-blue);
+        padding: 75px 20% 75px 20%;
+    }
+
+    .logoipsum {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+    }
+
+    .logoipsum > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer__section > h3 {
+        color: var(--light-blue);
+    }
+
+    .footer__section-last > h3 {
+        color: var(--light-blue);
+    }
+
+    .a-footer {
+        color: var(--light-blue);
+    }
+
+    .footer__logo {
+        color: var(--light-blue);
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .footer__contact > img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .adress {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .footer__section {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .footer__section-last {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+}
