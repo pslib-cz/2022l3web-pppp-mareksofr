@@ -25,6 +25,7 @@
     font-size: 0.75em;
     text-decoration: none;
 }
+
 .hamburger-menu::after {
     content: url(../pictures/hamburger.svg);
 }
